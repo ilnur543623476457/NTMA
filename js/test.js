@@ -4,6 +4,8 @@ const but3 = document.querySelector('.obh_sa_vid')
 const but4 = document.querySelector('.txtfut')
 const but5 = document.querySelector('.ttgjd')
 
+const tg = window.Telegram.WebApp;
+tg.expand();
 function te() {
     butO.classList.remove('offCS')
     butO.classList.remove('offCS2')
